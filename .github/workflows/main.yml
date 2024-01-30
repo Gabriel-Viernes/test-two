@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on:ubuntu:latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actiona/checkout@v3
       - uses: akhileshns/heroku-deploy@v3.12.11
